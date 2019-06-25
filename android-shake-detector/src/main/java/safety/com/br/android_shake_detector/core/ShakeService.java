@@ -61,7 +61,9 @@ public class ShakeService extends Service {
 
     @Override
     public void onDestroy() {
-        this.sensorManager.unregisterListener(this.shakeListener);
+        if (this.sensorManager != null) {
+            this.sensorManager.unregisterListener(this.shakeListener);
+        }
         super.onDestroy();
     }
 
