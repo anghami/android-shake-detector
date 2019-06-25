@@ -1,4 +1,4 @@
-![](https://jitpack.io/v/safetysystemtechnology/android-shake-detector.svg)
+[![](https://jitpack.io/v/anghami/android-shake-detector.svg)](https://jitpack.io/#anghami/android-shake-detector)
 
 
 # android-shake-detector
